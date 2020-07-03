@@ -19,9 +19,9 @@
         </base-heading>
 
         <base-text class="mb-5">
-          Algunos de los proyectos
-          en los que trabajo en el tiempo libre para
-          profundizar conocimientos en tecnologías Web
+          Una muestra de los proyectos que hago
+          en mi tiempo libre, para profundizar
+          conocimientos en tecnologías Web
         </base-text>
         <v-row>
           <!-- PROYECTO 1 -->

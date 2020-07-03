@@ -4,7 +4,7 @@
       v-for="(item, i) in items.slice(0, large ? items.length : 3)"
       :key="i"
       fab
-      class="ma-2"
+      class="ma-1"
       color="info"
       :small="!large"
       :href="item.href"

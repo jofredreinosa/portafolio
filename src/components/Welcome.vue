@@ -10,8 +10,23 @@
       >
         <v-img
           :src="require('@/assets/first.jpg')"
-          height="100vh"
-        />
+          :lazy-src="require('@/assets/first.jpg')"
+          class="grey lighten-2"
+          :height="'100vh'"
+        >
+          <template v-slot:placeholder>
+            <v-row
+              class="fill-height ma-0"
+              align="center"
+              justify="center"
+            >
+              <v-progress-circular
+                indeterminate
+                color="black"
+              />
+            </v-row>
+          </template>
+        </v-img>
       </v-col>
 
       <v-col
@@ -33,17 +48,16 @@
             cols="10"
             md="6"
             style="color: white;"
-            class="mt-n10 mr-10"
           >
-            <base-heading>Bienvenidos!</base-heading>
+            <base-heading class="mt-10">
+              Bienvenidos!
+            </base-heading>
             <base-text>
               Hola, me llamo Jofred Reinosa, soy programador,
-              trabajé más de 10 años con herramientas de
-              desarrollo Oracle como Designer, Forms, Reports y
-              PL/Sql.<br>
-              En el año 2018 inicié en la
-              programación web, tanto en backend como en frontend y
-              en la actualidad trabajo y continúo formándome en esta área.
+              con más de 10 años de experiencia en
+              desarrollo con Oracle Forms, Reports y
+              PL/Sql y en la actualidad, más de 2 años trabajando con
+              programación web.
             </base-text>
           </v-col>
         </v-row>

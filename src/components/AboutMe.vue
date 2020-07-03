@@ -21,7 +21,6 @@
         class="pa-5"
         cols="12"
         md="6"
-        style="background-color: #D8EBF1; color: black;"
       >
         <base-bubble-1 style="transform: translate(5%, -5%)" />
 
@@ -30,10 +29,10 @@
         </base-heading>
 
         <base-text class="mb-5">
-          Venezolano, actualmente radicado en Santiago de Chile.
+          Venezolano, radicado en Santiago de Chile.
           Proactivo, autodidácta, con facilidades para trabajar en
           equipo, capacidad para aprender y enseñar.
-          Actualmente trabajando como programador FrontEnd
+          En la actualidad trabajando como programador FrontEnd
           con Angular y Angular Material.
         </base-text>
 
@@ -43,47 +42,43 @@
 
         <base-text class="mb-5">
           Las siguientes son algunas de las tecnologías, lenguajes y/o <br>
-          frameworks que manejo y/o estoy aprendiendo.
+          frameworks que domino y/o estoy aprendiendo.
         </base-text>
-
-        <v-alert
-          outlined
-          color="info"
+        <v-list
+          two-line
+          dense
         >
-          <v-list
-            two-line
-            color="accent"
-            dense
-          >
-            <template v-for="(item, index) in items">
-              <v-subheader
-                v-if="item.header"
-                :key="item.header"
-                v-text="item.header"
-              />
+          <template v-for="(item, index) in items">
+            <v-subheader
+              v-if="item.header"
+              :key="item.header"
+              v-text="item.header"
+            />
 
-              <v-divider
-                v-else-if="item.divider"
-                :key="index"
-                :inset="item.inset"
-              />
+            <v-divider
+              v-else-if="item.divider"
+              :key="index"
+              :inset="item.inset"
+            />
 
-              <v-list-item
-                v-else
-                :key="item.title"
+            <v-list-item
+              v-else
+              :key="item.title"
+            >
+              <v-list-item-avatar
+                size="48"
+                tile
               >
-                <v-list-item-avatar>
-                  <v-img :src="item.avatar" />
-                </v-list-item-avatar>
+                <v-img :src="item.avatar" />
+              </v-list-item-avatar>
 
-                <v-list-item-content>
-                  <v-list-item-title v-html="item.title" />
-                  <!-- <v-list-item-subtitle v-html="item.subtitle" /> -->
-                </v-list-item-content>
-              </v-list-item>
-            </template>
-          </v-list>
-        </v-alert>
+              <v-list-item-content>
+                <v-list-item-title v-html="item.title" />
+                <v-list-item-subtitle v-html="item.subtitle" />
+              </v-list-item-content>
+            </v-list-item>
+          </template>
+        </v-list>
       </v-col>
     </v-row>
   </section>
@@ -97,55 +92,52 @@
         {
           avatar: require('@/assets/htmlcssjs.jpg'),
           title: 'Html, Css, JavaScript, Bootstrap',
-          subtitle: '',
+          subtitle: 'Con dominio y perfeccionando...',
         },
-        { divider: true, inset: true },
         {
           avatar: require('@/assets/angular.png'),
           title: 'Angular, Angular Material, Angular PrimeNG',
-          subtitle: '',
+          subtitle: 'Con dominio y perfeccionando...',
         },
-        { divider: true, inset: true },
         {
           avatar: require('@/assets/vue.png'),
           title: 'Vue, Vuetify',
-          subtitle: '',
+          subtitle: 'Aprendiendo...',
         },
         { header: 'Backend' },
         {
           avatar: require('@/assets/laravelphp.png'),
           title: 'Php, Laravel',
-          subtitle: '',
+          subtitle: 'Con dominio y perfeccionando...',
         },
-        { divider: true, inset: true },
         {
           avatar: require('@/assets/nodeexpress.png'),
           title: 'NodeJs Express',
-          subtitle: "<span class='text--primary'>Britta Holt</span> &mdash; We should eat this: Grate, Squash, Corn, and tomatillo Tacos.",
+          subtitle: 'Aprendiendo...',
         },
-        { header: 'Bases de Datos' },
-        {
-          avatar: require('@/assets/sql.png'),
-          title: 'SQL',
-          subtitle: '',
-        },
-        { divider: true, inset: true },
+        { header: 'Bases de Datos Relacionales' },
         {
           avatar: require('@/assets/bbdd.png'),
-          title: 'Oracle, MySql, Postgres, SqlServer, MongoDB',
-          subtitle: '',
+          title: 'SQL, Oracle, MySql, Postgres, SqlServer',
+          subtitle: 'Con dominio y perfeccionando...',
+        },
+        { header: 'Bases de Datos NO Relacionales' },
+        {
+          avatar: require('@/assets/mongo.png'),
+          title: 'MongoDB',
+          subtitle: 'Aprendiendo...',
         },
         { header: 'Control de Versiones' },
         {
           avatar: require('@/assets/git.png'),
           title: 'Git, Github',
-          subtitle: '',
+          subtitle: 'Aprendiendo...',
         },
         { header: 'Oracle' },
         {
           avatar: require('@/assets/oracle.png'),
           title: 'Oracle Forms, Oracle Reports, PL/Sql',
-          subtitle: '',
+          subtitle: 'Con dominio',
         },
       ],
     }),
