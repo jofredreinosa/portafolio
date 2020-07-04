@@ -39,11 +39,6 @@
           icon: 'mdi-linkedin',
           href: 'https://www.linkedin.com/in/jofred-reinosa/',
         },
-        {
-          name: 'Email',
-          icon: 'mdi-email',
-          href: 'mailto:reinosaj@gmail.com',
-        },
       ],
     }),
   }

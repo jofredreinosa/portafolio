@@ -32,7 +32,6 @@
             <v-card
               class="mx-auto"
               max-width="300"
-              color="accent"
             >
               <v-img
                 class="white--text align-end"
@@ -75,7 +74,6 @@
             md="6"
           >
             <v-card
-              color="accent"
               class="mx-auto"
               max-width="300"
             >

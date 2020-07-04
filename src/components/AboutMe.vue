@@ -41,8 +41,9 @@
         </base-subheading>
 
         <base-text class="mb-5">
-          Las siguientes son algunas de las tecnologías, lenguajes y/o <br>
-          frameworks que domino y/o estoy aprendiendo.
+          Las siguientes son algunas de las tecnologías, lenguajes y
+          frameworks que domino y otras en las que estoy en proceso de
+          aprendizaje.
         </base-text>
         <v-list
           two-line
