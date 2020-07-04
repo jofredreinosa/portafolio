@@ -30,8 +30,8 @@
 
         <base-text class="mb-5">
           Venezolano, radicado en Santiago de Chile.
-          Proactivo, autodidácta, con facilidades para trabajar en
-          equipo, capacidad para aprender y enseñar.
+          Con capacidad de análisis, proactivo, trabajo en equipo,
+          autodidacta y dispuesto a aprender y a enseñar.
           En la actualidad trabajando como programador FrontEnd
           con Angular y Angular Material.
         </base-text>
