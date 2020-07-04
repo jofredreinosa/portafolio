@@ -8,7 +8,7 @@
         class="text-left pa-5 white--text"
         cols="12"
         md="6"
-        style="background-color: #1cd5ea;"
+        style="background-color: #686984;"
       >
         <base-bubble-1
           style="transform: rotate(180deg) translateX(25%)"
