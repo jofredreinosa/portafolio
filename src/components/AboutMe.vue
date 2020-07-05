@@ -93,12 +93,12 @@
         {
           avatar: require('@/assets/htmlcssjs.jpg'),
           title: 'Html, Css, JavaScript, Bootstrap',
-          subtitle: 'Con dominio y perfeccionando...',
+          subtitle: 'Nivel intermedio y perfeccionando...',
         },
         {
           avatar: require('@/assets/angular.png'),
           title: 'Angular, Angular Material, Angular PrimeNG',
-          subtitle: 'Con dominio y perfeccionando...',
+          subtitle: 'Nivel intermedio y perfeccionando...',
         },
         {
           avatar: require('@/assets/vue.png'),
@@ -109,7 +109,7 @@
         {
           avatar: require('@/assets/laravelphp.png'),
           title: 'Php, Laravel',
-          subtitle: 'Con dominio y perfeccionando...',
+          subtitle: 'Nivel intermedio y perfeccionando...',
         },
         {
           avatar: require('@/assets/nodeexpress.png'),
@@ -120,7 +120,7 @@
         {
           avatar: require('@/assets/bbdd.png'),
           title: 'SQL, Oracle, MySql, Postgres, SqlServer',
-          subtitle: 'Con dominio y perfeccionando...',
+          subtitle: 'Nivel intermedio y perfeccionando...',
         },
         { header: 'Bases de Datos NO Relacionales' },
         {
@@ -138,7 +138,7 @@
         {
           avatar: require('@/assets/oracle.png'),
           title: 'Oracle Forms, Oracle Reports, PL/Sql',
-          subtitle: 'Con dominio',
+          subtitle: 'Avanzado',
         },
       ],
     }),

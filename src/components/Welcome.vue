@@ -53,7 +53,7 @@
               Bienvenidos!
             </base-heading>
             <base-text>
-              Hola, me llamo Jofred Reinosa, soy programador,
+              Hola, soy Jofred Reinosa, programador
               con más de 10 años de experiencia en
               desarrollo con Oracle Forms, Reports y
               PL/Sql y en la actualidad, más de 2 años trabajando con
