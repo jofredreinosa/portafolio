@@ -36,6 +36,59 @@
               <v-img
                 class="white--text align-end"
                 height="140px"
+                :src="require('@/assets/vue+vuetify.jpg')"
+              >
+                <v-card-title>
+                  Vue + Vuetify
+                </v-card-title>
+              </v-img>
+              <v-card-subtitle class="pb-0 text-left">
+                App Control cuentas bancarias, se conecta a Api Express con bbdd Mongo
+              </v-card-subtitle>
+
+              <v-card-actions>
+                <v-btn
+                  color="orange"
+                  text
+                  href="https://angular-leaflet-1.web.app/"
+                  target="_blank"
+                >
+                  Demo
+                </v-btn>
+
+                <v-btn
+                  color="orange"
+                  text
+                  href="https://github.com/jofredreinosa/Front-Vue-Conciliar"
+                  target="_blank"
+                >
+                  FrontEnd
+                </v-btn>
+
+                <v-btn
+                  color="orange"
+                  text
+                  href="https://github.com/jofredreinosa/api-node-conciliar"
+                  target="_blank"
+                >
+                  BackEnd
+                </v-btn>
+              </v-card-actions>
+            </v-card>
+          </v-col>
+
+          <!-- PROYECTO 2 -->
+          <v-col
+            class="text-center pa-5 white--text"
+            md="6"
+          >
+            <v-card
+              class="mx-auto"
+              max-width="300"
+            >
+              <v-img
+                class="white--text align-end"
+                height="140px"
                 :src="require('@/assets/leaflet.png')"
               >
                 <v-card-title>
